@@ -1,0 +1,14 @@
+html {
+        background-color:#F8D974;
+    }
+
+#result, label, input, button {
+        font-family: "Helvetica", "Arial", sans-serif;
+        font-size: 18px;
+    }
+
+div {
+        margin-left:40px;
+        margin-top:15px;
+    }
+

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Talk about eating habit</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <div>
+        <label>Enter your favourite food: <input type="text" id="foodName"></label>
+        <input type="button" value="Enter" id="checkButton">
+    </div>
+    <div id="result"></div>
+    <script>
+        function buttonClick(){
+            result.innerHTML = 'Your favourite food is ' + foodName.value
+        }
+        let foodName = document.getElementById('foodName');
+        let result = document.getElementById('result');
+        let checkButton = document.getElementById('checkButton');
+        checkButton.addEventListener('click', buttonClick);
+    </script>
+</body>
+</html>
